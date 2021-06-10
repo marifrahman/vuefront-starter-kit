@@ -2,6 +2,7 @@ require('dotenv').config()
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 
 export default {
+  target: 'static',
   mode: 'universal',
   env: {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
